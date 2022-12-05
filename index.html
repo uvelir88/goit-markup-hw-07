@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>WebStudio</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+			integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="./css/styles.css" />
+	</head>
+	<body class="page">
+		<header class="header">
+			<div class="container header-container">
+				<nav class="main-nav">
+					<a class="logo link" href="./index.html">
+						<span class="logo-accent">Web</span>
+						Studio
+					</a>
+					<ul class="list header-nav-link">
+						<li class="logo-list-item">
+							<a class="nav-link link current" href="">Студія</a>
+						</li>
+						<li class="logo-list-item">
+							<a class="nav-link link" href="./portfolio.html">Портфоліо</a>
+						</li>
+						<li class="logo-list-item">
+							<a class="nav-link link" href="">Контакти</a>
+						</li>
+					</ul>
+				</nav>
+				<ul class="list header-contact-link">
+					<li>
+						<a class="nav-link link contact-link" href="mailto:info@devstudio.com">
+							<svg class="icon-header" width="16" height="12">
+								<use href="./images/sprite.svg#icon-envelope-hover"></use>
+							</svg>
+							info@devstudio.com
+						</a>
+					</li>
+					<li>
+						<a class="nav-link link contact-link" href="tel:+380961111111">
+							<svg class="icon-header" width="10" height="16">
+								<use href="./images/sprite.svg#icon-telephon"></use>
+							</svg>
+							+38 096 111 11 11
+						</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<main class="main">
+			<section class="hero">
+				<div class="container">
+					<h1 class="hero-title">
+						Ефективні рішення для
+						<br />
+						вашого бізнесу
+					</h1>
+					<button class="hero-btn" type="button" data-modal-open>Замовити послугу</button>
+				</div>
+			</section>
+			<section class="benefits">
+				<div class="container">
+					<h2 class="hidden-elements">Наші переваги</h2>
+					<ul class="benefits-list list">
+						<li class="benefits-list-item">
+							<div class="benefits-icon-container">
+								<svg width="70" height="70">
+									<use href="./images/sprite.svg#icon-satellite"></use>
+								</svg>
+							</div>
+							<h3 class="benefits-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+							<p class="text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+						</li>
+						<li class="benefits-list-item">
+							<div class="benefits-icon-container">
+								<svg width="70" height="70">
+									<use href="./images/sprite.svg#icon-clock"></use>
+								</svg>
+							</div>
+							<h3 class="benefits-title">ПУНКТУАЛЬНІСТЬ</h3>
+							<p class="text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+						</li>
+						<li class="benefits-list-item">
+							<div class="benefits-icon-container">
+								<svg width="70" height="70">
+									<use href="./images/sprite.svg#icon-diagram"></use>
+								</svg>
+							</div>
+							<h3 class="benefits-title">ПЛАНУВАННЯ</h3>
+							<p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
+						</li>
+						<li class="benefits-list-item">
+							<div class="benefits-icon-container">
+								<svg width="70" height="70">
+									<use href="./images/sprite.svg#icon-astronaut"></use>
+								</svg>
+							</div>
+							<h3 class="benefits-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+							<p class="text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="work">
+				<div class="container">
+					<h2 class="section-title">Чим ми займаємося</h2>
+					<ul class="list work-list">
+						<li class="list-item work-list-item">
+							<img src="./images/studio/desktop_applications.jpg" alt="Десктопні додатки" width="370" height="294" />
+							<h3 class="work-item-wrapper">Десктопні додатки</h3>
+						</li>
+						<li class="list-item work-list-item">
+							<img src="./images/studio/mobile_applications.jpg" alt="Мобільні додатки" width="370" height="294" />
+							<h3 class="work-item-wrapper">Мобільні додатки</h3>
+						</li>
+						<li class="list-item work-list-item">
+							<img src="./images/studio/design_solutions.jpg" alt="Дизайнерські рішення" width="370" height="294" />
+							<h3 class="work-item-wrapper">Дизайнерські рішення</h3>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="team">
+				<div class="container">
+					<h2 class="section-title">Наша команда</h2>
+					<ul class="list team-list">
+						<li class="list-card">
+							<img src="./images/team/ihor.jpg" alt="Фото Ігоря Дем'яненко" width="270" height="260" />
+							<h3 class="team-title">Ігор Дем'яненко</h3>
+							<p class="team-text">Product Designer</p>
+							<ul class="social-links-list list">
+								<li class="social-links-item">
+									<a
+										class="social-link link"
+										href="https://www.instagram.com/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<svg class="social-link-icon">
+											<use href="./images/sprite.svg#icon-instagram"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="social-links-item">
+									<a class="social-link link" href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+										<svg class="social-link-icon">
+											<use href="./images/sprite.svg#icon-twitter"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="social-links-item">
+									<a
+										class="social-link link"
+										href="https://www.facebook.com/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<svg class="social-link-icon">
+											<use href="./images/sprite.svg#icon-facebook"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="social-links-item">
+									<a
+										class="social-link link"
+										href="https://www.linkedin.com/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<svg class="social-link-icon">
+											<use href="./images/sprite.svg#icon-linkedin"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list-card">
+							<img src="./images/team/olha.jpg" alt="Фото Ольги Рєпіной" width="270" height="260" />
+							<h3 class="team-title">Ольга Рєпіна</h3>
+							<p class="team-text">Frontend Developer</p>
+							<ul class="social-links-list list">
+								<li class="social-links-item">
+									<a
+										class="social-link link"
+										href="https://www.instagram.com/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<svg class="social-link-icon">
+											<use href="./images/sprite.svg#icon-instagram"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="social-links-item">
+									<a class="social-link link" href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+										<svg class="social-link-icon">
+											<use href="./images/sprite.svg#icon-twitter"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="social-links-item">
+									<a
+										class="social-link link"
+										href="https://www.facebook.com/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<svg class="social-link-icon">
+											<use href="./images/sprite.svg#icon-facebook"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="social-links-item">
+									<a
+										class="social-link link"
+										href="https://www.linkedin.com/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<svg class="social-link-icon">
+											<use href="./images/sprite.svg#icon-linkedin"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list-card">
+							<img src="./images/team/mykola.jpg" alt="Фото Миколи Тарасова" width="270" height="260" />
+							<h3 class="team-title">Микола Тарасов</h3>
+							<p class="team-text">Marketing</p>
+							<ul class="social-links-list list">
+								<li class="social-links-item">
+									<a
+										class="social-link link"
+										href="https://www.instagram.com/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<svg class="social-link-icon">
+											<use href="./images/sprite.svg#icon-instagram"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="social-links-item">
+									<a class="social-link link" href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+										<svg class="social-link-icon">
+											<use href="./images/sprite.svg#icon-twitter"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="social-links-item">
+									<a
+										class="social-link link"
+										href="https://www.facebook.com/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<svg class="social-link-icon">
+											<use href="./images/sprite.svg#icon-facebook"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="social-links-item">
+									<a
+										class="social-link link"
+										href="https://www.linkedin.com/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<svg class="social-link-icon">
+											<use href="./images/sprite.svg#icon-linkedin"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="list-card">
+							<img src="./images/team/myhailo.jpg" alt="Фото Михайла Єрмакова" width="270" height="260" />
+							<h3 class="team-title">Михайло Єрмаков</h3>
+							<p class="team-text">UI Designer</p>
+							<ul class="social-links-list list">
+								<li class="social-links-item">
+									<a
+										class="social-link link"
+										href="https://www.instagram.com/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<svg class="social-link-icon">
+											<use href="./images/sprite.svg#icon-instagram"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="social-links-item">
+									<a class="social-link link" href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+										<svg class="social-link-icon">
+											<use href="./images/sprite.svg#icon-twitter"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="social-links-item">
+									<a
+										class="social-link link"
+										href="https://www.facebook.com/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<svg class="social-link-icon">
+											<use href="./images/sprite.svg#icon-facebook"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="social-links-item">
+									<a
+										class="social-link link"
+										href="https://www.linkedin.com/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<svg class="social-link-icon">
+											<use href="./images/sprite.svg#icon-linkedin"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="clients">
+				<div class="container">
+					<h2 class="clients-title">Постійні клієнти</h2>
+					<ul class="clients-list list">
+						<li class="client-list-item">
+							<a class="clients-link">
+								<svg class="client-icon">
+									<use href="./images/sprite.svg#icon-yaco"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="client-list-item">
+							<a class="clients-link">
+								<svg class="client-icon">
+									<use href="./images/sprite.svg#icon-tagline"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="client-list-item">
+							<a class="clients-link">
+								<svg class="client-icon">
+									<use href="./images/sprite.svg#icon-company"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="client-list-item">
+							<a class="clients-link">
+								<svg class="client-icon">
+									<use href="./images/sprite.svg#icon-foster"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="client-list-item">
+							<a class="clients-link">
+								<svg class="client-icon">
+									<use href="./images/sprite.svg#icon-brand"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="client-list-item">
+							<a class="clients-link">
+								<svg class="client-icon">
+									<use href="./images/sprite.svg#icon-companytag"></use>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container main-footer-container">
+				<div class="footer-container">
+					<a class="logo-footer logo link" href="./index.html">
+						<span class="logo-accent">Web</span>
+						Studio
+					</a>
+					<address class="address">
+						<ul class="list address-list">
+							<li class="list-item address-item">
+								<a
+									class="nav-link link address-map"
+									href="https://goo.gl/maps/6CXjgPpzPFPxWvc36"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									м. Київ, пр-т Лесі Українки, 26
+								</a>
+							</li>
+							<li class="list-item address-item">
+								<a class="nav-link link address-contact address-map" href="mailto:info@devstudio.com">
+									info@devstudio.com
+								</a>
+							</li>
+							<li class="list-item address-item">
+								<a class="nav-link link address-contact address-map" href="tel:+380961111111">+38 096 111 11 11</a>
+							</li>
+						</ul>
+					</address>
+				</div>
+				<div class="social-links-footer">
+					<p class="footer-title-link">приєднуйтесь</p>
+					<ul class="social-footer-list list">
+						<li class="social-footer-icon">
+							<a
+								class="social-footer-link link"
+								href="https://www.instagram.com/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<svg class="footer-icon" width="20px" height="20px">
+									<use href="./images/sprite.svg#icon-instagram"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="social-footer-icon">
+							<a class="social-footer-link link" href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+								<svg class="footer-icon" width="20px" height="20px">
+									<use href="./images/sprite.svg#icon-twitter"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="social-footer-icon">
+							<a
+								class="social-footer-link link"
+								href="https://www.facebook.com/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<svg class="footer-icon" width="20px" height="20px">
+									<use href="./images/sprite.svg#icon-facebook"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="social-footer-icon">
+							<a
+								class="social-footer-link link"
+								href="https://www.linkedin.com/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<svg class="footer-icon" width="20px" height="20px">
+									<use href="./images/sprite.svg#icon-linkedin"></use>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="newsletter">
+					<p class="newsletter-text">Підпишіться на розсилку</p>
+					<form class="newsletter-form" action="#">
+						<label class="newsletter-label">
+							<input class="newsletter-input" type="email" name="user-email" placeholder="E-mail" />
+						</label>
+						<button class="newsletter-btn" type="submit">
+							Підписатися
+							<svg class="newsletter-icon" width="24" height="24">
+								<use href="./images/sprite.svg#icon-telegram"></use>
+							</svg>
+						</button>
+					</form>
+				</div>
+			</div>
+		</footer>
+		<div class="backdrop is-hidden" data-modal>
+			<div class="modal">
+				<button class="modal-close" type="button" data-modal-close>
+					<svg class="modal-close-icon" width="11" height="11">
+						<use href="./images/sprite.svg#icon-close"></use>
+					</svg>
+				</button>
+				<p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+				<form class="register-form">
+					<div class="register-form-group">
+						<label class="register-form-field">
+							<span class="register-form-label">Ім'я</span>
+							<input type="text" class="register-form-input" name="user-name" />
+							<svg class="register-form-icon">
+								<use href="./images/sprite.svg#icon-person-black" width="18" height="18"></use>
+							</svg>
+						</label>
+						<label class="register-form-field">
+							<span class="register-form-label">Телефон</span>
+							<input type="tel" class="register-form-input" name="user-tel" />
+							<svg class="register-form-icon">
+								<use href="./images/sprite.svg#icon-phone-black" width="18" height="18"></use>
+							</svg>
+						</label>
+						<label class="register-form-field">
+							<span class="register-form-label">Пошта</span>
+							<input type="email" class="register-form-input" name="user-email" />
+							<svg class="register-form-icon">
+								<use href="./images/sprite.svg#icon-email-black" width="18" height="18"></use>
+							</svg>
+						</label>
+						<label class="register-form-field">
+							<span class="register-form-label">Коментар</span>
+							<textarea class="register-form-message" name="Comment" id rows="4" placeholder="Введіть текст"></textarea>
+						</label>
+					</div>
+					<label class="register-form-agreement">
+						<input class="register-form-checkbox hidden-elements" type="checkbox" />
+						<svg class="register-form-icons" width="16" height="15">
+							<use class="icon-unchecked" href="./images/sprite.svg#icon-uncheked"></use>
+							<use class="icon-checked" href="./images/sprite.svg#icon-cheked"></use>
+						</svg>
+						<span class="register-form-desc">
+							Погоджуюся з розсилкою та приймаю
+							<a class="register-form-link" href target="_blank">Умови договору</a>
+						</span>
+					</label>
+					<button class="register-form-btn hero-btn" type="submit">Відправити</button>
+				</form>
+			</div>
+		</div>
+		<script src="./js/modal.js"></script>
+	</body>
+</html>
