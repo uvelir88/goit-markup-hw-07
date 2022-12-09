@@ -1,0 +1,61 @@
+.newsletter {
+	display: block;
+}
+
+.newsletter-text {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: calc(16 / 14);
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--hero-text-cl);
+	margin-bottom: 20px;
+}
+
+.newsletter-form {
+	display: flex;
+}
+
+.newsletter-label {
+	display: inline-block;
+	margin-right: 12px;
+}
+
+.newsletter-input {
+	width: 358px;
+	height: 50px;
+	padding: 15px;
+	background-color: var(--main-bg-cl);
+	color: var(--hero-text-cl);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+.newsletter-btn {
+	min-width: 200px;
+	height: 50px;
+	padding: 10px 28px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: calc(30 / 16);
+	letter-spacing: 0.06em;
+	color: var(--hero-text-cl);
+	border: none;
+	cursor: pointer;
+	background-color: #2196f3;
+	box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+	border-radius: 4px;
+	display: inline-flex;
+	align-items: center;
+	text-align: center;
+	transition: background-color 250ms;
+	&:hover,
+	&:focus {
+		background-color: #188ce8;
+	}
+}
+
+.newsletter-icon {
+	margin-left: 10px;
+}

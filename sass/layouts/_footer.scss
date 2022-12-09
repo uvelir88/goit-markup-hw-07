@@ -1,0 +1,40 @@
+.main-footer-container {
+	display: flex;
+	align-items: baseline;
+}
+
+.footer-container {
+	margin-right: 70px;
+}
+
+.footer {
+	background-color: var(--main-bg-cl);
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.logo-footer {
+	color: #ffffff;
+}
+
+.address {
+	font-style: normal;
+}
+
+.address-list {
+	margin-top: 20px;
+}
+
+.address-item:not(:last-child) {
+	margin-bottom: 9px;
+}
+
+.address-map {
+	font-size: 14px;
+	line-height: calc(24 / 14);
+	color: #ffffff;
+}
+
+.address-contact {
+	color: rgba(255, 255, 255, 0.6);
+}
