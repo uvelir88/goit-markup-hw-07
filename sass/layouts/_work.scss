@@ -2,12 +2,12 @@
 	padding-bottom: 94px;
 }
 
-.work-list {
+.work__list {
 	display: flex;
 	gap: 30px;
 }
 
-.section-title {
+.work__title {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: calc(42 / 36);
@@ -16,11 +16,11 @@
 	margin-bottom: 50px;
 }
 
-.work-list-item {
+.work__item {
 	position: relative;
 }
 
-.work-item-wrapper {
+.work__wrapper {
 	font-weight: 700;
 	font-size: 14px;
 	line-height: calc(16 / 14);

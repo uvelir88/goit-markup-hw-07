@@ -171,7 +171,7 @@ img {
   background-size: cover;
 }
 
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.3636363636;
@@ -181,7 +181,7 @@ img {
   margin-bottom: 30px;
 }
 
-.hero-btn {
+.hero__btn {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -197,7 +197,7 @@ img {
   padding: 10px 32px;
   transition: color 300ms linear;
 }
-.hero-btn:hover, .hero-btn:focus {
+.hero__btn:hover, .hero__btn:focus {
   background-color: #188ce8;
 }
 
@@ -206,18 +206,18 @@ img {
   padding-bottom: 94px;
 }
 
-.benefits-list-item {
+.benefits__item {
   width: 270px;
 }
 
-.benefits-list {
+.benefits__list {
   display: flex;
   gap: 30px;
   margin: 0;
   padding: 0;
 }
 
-.benefits-icon-container {
+.benefits__icon-container {
   height: 120px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
@@ -227,7 +227,7 @@ img {
   border-radius: 4px;
 }
 
-.benefits-title {
+.benefits__title {
   font-size: 14px;
   line-height: 1.1428571429;
   text-transform: uppercase;
@@ -235,7 +235,7 @@ img {
   margin-bottom: 10px;
 }
 
-.text {
+.benefits__text {
   font-size: 14px;
   line-height: 1.7142857143;
   color: var(--main-text-cl);
@@ -245,12 +245,12 @@ img {
   padding-bottom: 94px;
 }
 
-.work-list {
+.work__list {
   display: flex;
   gap: 30px;
 }
 
-.section-title {
+.work__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1666666667;
@@ -259,11 +259,11 @@ img {
   margin-bottom: 50px;
 }
 
-.work-list-item {
+.work__item {
   position: relative;
 }
 
-.work-item-wrapper {
+.work__wrapper {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1428571429;
